@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F12A181D2760ABDD00C02D3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12A181C2760ABDD00C02D3A /* AppDelegate.swift */; };
+		F12A181F2760ABDD00C02D3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12A181E2760ABDD00C02D3A /* SceneDelegate.swift */; };
+		F12A18212760ABDD00C02D3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12A18202760ABDD00C02D3A /* ViewController.swift */; };
+		F12A18242760ABDD00C02D3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12A18222760ABDD00C02D3A /* Main.storyboard */; };
+		F12A18272760ABDD00C02D3A /* albaik.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F12A18252760ABDD00C02D3A /* albaik.xcdatamodeld */; };
+		F12A18292760ABE000C02D3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12A18282760ABE000C02D3A /* Assets.xcassets */; };
+		F12A182C2760ABE000C02D3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12A182A2760ABE000C02D3A /* LaunchScreen.storyboard */; };
+		F12A18372760ABE000C02D3A /* albaikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12A18362760ABE000C02D3A /* albaikTests.swift */; };
+		F12A18412760ABE000C02D3A /* albaikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12A18402760ABE000C02D3A /* albaikUITests.swift */; };
+		F12A18432760ABE000C02D3A /* albaikUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12A18422760ABE000C02D3A /* albaikUITestsLaunchTests.swift */; };
+		F12A18512760AC5800C02D3A /* bannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12A184F2760AC5800C02D3A /* bannerCell.swift */; };
+		F12A18522760AC5800C02D3A /* bannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12A18502760AC5800C02D3A /* bannerCell.xib */; };
+		F12A18552760AD1C00C02D3A /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12A18532760AD1B00C02D3A /* Products.swift */; };
+		F12A18562760AD1C00C02D3A /* Products.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12A18542760AD1B00C02D3A /* Products.xib */; };
+		F12A18582760AE0000C02D3A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12A18572760AE0000C02D3A /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F12A18332760ABE000C02D3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F12A18112760ABDD00C02D3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F12A18182760ABDD00C02D3A;
+			remoteInfo = albaik;
+		};
+		F12A183D2760ABE000C02D3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F12A18112760ABDD00C02D3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F12A18182760ABDD00C02D3A;
+			remoteInfo = albaik;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F12A18192760ABDD00C02D3A /* albaik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = albaik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12A181C2760ABDD00C02D3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F12A181E2760ABDD00C02D3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F12A18202760ABDD00C02D3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F12A18232760ABDD00C02D3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F12A18262760ABDD00C02D3A /* albaik.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = albaik.xcdatamodel; sourceTree = "<group>"; };
+		F12A18282760ABE000C02D3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F12A182B2760ABE000C02D3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F12A182D2760ABE000C02D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12A18322760ABE000C02D3A /* albaikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = albaikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12A18362760ABE000C02D3A /* albaikTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = albaikTests.swift; sourceTree = "<group>"; };
+		F12A183C2760ABE000C02D3A /* albaikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = albaikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12A18402760ABE000C02D3A /* albaikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = albaikUITests.swift; sourceTree = "<group>"; };
+		F12A18422760ABE000C02D3A /* albaikUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = albaikUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F12A184F2760AC5800C02D3A /* bannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bannerCell.swift; sourceTree = "<group>"; };
+		F12A18502760AC5800C02D3A /* bannerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = bannerCell.xib; sourceTree = "<group>"; };
+		F12A18532760AD1B00C02D3A /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		F12A18542760AD1B00C02D3A /* Products.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Products.xib; sourceTree = "<group>"; };
+		F12A18572760AE0000C02D3A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F12A18162760ABDD00C02D3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12A182F2760ABE000C02D3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12A18392760ABE000C02D3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F12A18102760ABDD00C02D3A = {
+			isa = PBXGroup;
+			children = (
+				F12A181B2760ABDD00C02D3A /* albaik */,
+				F12A18352760ABE000C02D3A /* albaikTests */,
+				F12A183F2760ABE000C02D3A /* albaikUITests */,
+				F12A181A2760ABDD00C02D3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F12A181A2760ABDD00C02D3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F12A18192760ABDD00C02D3A /* albaik.app */,
+				F12A18322760ABE000C02D3A /* albaikTests.xctest */,
+				F12A183C2760ABE000C02D3A /* albaikUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F12A181B2760ABDD00C02D3A /* albaik */ = {
+			isa = PBXGroup;
+			children = (
+				F12A181C2760ABDD00C02D3A /* AppDelegate.swift */,
+				F12A181E2760ABDD00C02D3A /* SceneDelegate.swift */,
+				F12A18202760ABDD00C02D3A /* ViewController.swift */,
+				F12A18572760AE0000C02D3A /* TableViewController.swift */,
+				F12A18222760ABDD00C02D3A /* Main.storyboard */,
+				F12A184F2760AC5800C02D3A /* bannerCell.swift */,
+				F12A18502760AC5800C02D3A /* bannerCell.xib */,
+				F12A18532760AD1B00C02D3A /* Products.swift */,
+				F12A18542760AD1B00C02D3A /* Products.xib */,
+				F12A18282760ABE000C02D3A /* Assets.xcassets */,
+				F12A182A2760ABE000C02D3A /* LaunchScreen.storyboard */,
+				F12A182D2760ABE000C02D3A /* Info.plist */,
+				F12A18252760ABDD00C02D3A /* albaik.xcdatamodeld */,
+			);
+			path = albaik;
+			sourceTree = "<group>";
+		};
+		F12A18352760ABE000C02D3A /* albaikTests */ = {
+			isa = PBXGroup;
+			children = (
+				F12A18362760ABE000C02D3A /* albaikTests.swift */,
+			);
+			path = albaikTests;
+			sourceTree = "<group>";
+		};
+		F12A183F2760ABE000C02D3A /* albaikUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F12A18402760ABE000C02D3A /* albaikUITests.swift */,
+				F12A18422760ABE000C02D3A /* albaikUITestsLaunchTests.swift */,
+			);
+			path = albaikUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F12A18182760ABDD00C02D3A /* albaik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12A18462760ABE000C02D3A /* Build configuration list for PBXNativeTarget "albaik" */;
+			buildPhases = (
+				F12A18152760ABDD00C02D3A /* Sources */,
+				F12A18162760ABDD00C02D3A /* Frameworks */,
+				F12A18172760ABDD00C02D3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = albaik;
+			productName = albaik;
+			productReference = F12A18192760ABDD00C02D3A /* albaik.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F12A18312760ABE000C02D3A /* albaikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12A18492760ABE000C02D3A /* Build configuration list for PBXNativeTarget "albaikTests" */;
+			buildPhases = (
+				F12A182E2760ABE000C02D3A /* Sources */,
+				F12A182F2760ABE000C02D3A /* Frameworks */,
+				F12A18302760ABE000C02D3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F12A18342760ABE000C02D3A /* PBXTargetDependency */,
+			);
+			name = albaikTests;
+			productName = albaikTests;
+			productReference = F12A18322760ABE000C02D3A /* albaikTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F12A183B2760ABE000C02D3A /* albaikUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12A184C2760ABE000C02D3A /* Build configuration list for PBXNativeTarget "albaikUITests" */;
+			buildPhases = (
+				F12A18382760ABE000C02D3A /* Sources */,
+				F12A18392760ABE000C02D3A /* Frameworks */,
+				F12A183A2760ABE000C02D3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F12A183E2760ABE000C02D3A /* PBXTargetDependency */,
+			);
+			name = albaikUITests;
+			productName = albaikUITests;
+			productReference = F12A183C2760ABE000C02D3A /* albaikUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F12A18112760ABDD00C02D3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F12A18182760ABDD00C02D3A = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F12A18312760ABE000C02D3A = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F12A18182760ABDD00C02D3A;
+					};
+					F12A183B2760ABE000C02D3A = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F12A18182760ABDD00C02D3A;
+					};
+				};
+			};
+			buildConfigurationList = F12A18142760ABDD00C02D3A /* Build configuration list for PBXProject "albaik" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F12A18102760ABDD00C02D3A;
+			productRefGroup = F12A181A2760ABDD00C02D3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F12A18182760ABDD00C02D3A /* albaik */,
+				F12A18312760ABE000C02D3A /* albaikTests */,
+				F12A183B2760ABE000C02D3A /* albaikUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F12A18172760ABDD00C02D3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12A18562760AD1C00C02D3A /* Products.xib in Resources */,
+				F12A182C2760ABE000C02D3A /* LaunchScreen.storyboard in Resources */,
+				F12A18522760AC5800C02D3A /* bannerCell.xib in Resources */,
+				F12A18292760ABE000C02D3A /* Assets.xcassets in Resources */,
+				F12A18242760ABDD00C02D3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12A18302760ABE000C02D3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12A183A2760ABE000C02D3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F12A18152760ABDD00C02D3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12A18212760ABDD00C02D3A /* ViewController.swift in Sources */,
+				F12A18582760AE0000C02D3A /* TableViewController.swift in Sources */,
+				F12A18512760AC5800C02D3A /* bannerCell.swift in Sources */,
+				F12A181D2760ABDD00C02D3A /* AppDelegate.swift in Sources */,
+				F12A18552760AD1C00C02D3A /* Products.swift in Sources */,
+				F12A181F2760ABDD00C02D3A /* SceneDelegate.swift in Sources */,
+				F12A18272760ABDD00C02D3A /* albaik.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12A182E2760ABE000C02D3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12A18372760ABE000C02D3A /* albaikTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12A18382760ABE000C02D3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12A18432760ABE000C02D3A /* albaikUITestsLaunchTests.swift in Sources */,
+				F12A18412760ABE000C02D3A /* albaikUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F12A18342760ABE000C02D3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F12A18182760ABDD00C02D3A /* albaik */;
+			targetProxy = F12A18332760ABE000C02D3A /* PBXContainerItemProxy */;
+		};
+		F12A183E2760ABE000C02D3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F12A18182760ABDD00C02D3A /* albaik */;
+			targetProxy = F12A183D2760ABE000C02D3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F12A18222760ABDD00C02D3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12A18232760ABDD00C02D3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F12A182A2760ABE000C02D3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12A182B2760ABE000C02D3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F12A18442760ABE000C02D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F12A18452760ABE000C02D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F12A18472760ABE000C02D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 856Q877TNN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = albaik/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yousef776.albaik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F12A18482760ABE000C02D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 856Q877TNN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = albaik/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yousef776.albaik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F12A184A2760ABE000C02D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yousef776.albaikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/albaik.app/albaik";
+			};
+			name = Debug;
+		};
+		F12A184B2760ABE000C02D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yousef776.albaikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/albaik.app/albaik";
+			};
+			name = Release;
+		};
+		F12A184D2760ABE000C02D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yousef776.albaikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = albaik;
+			};
+			name = Debug;
+		};
+		F12A184E2760ABE000C02D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yousef776.albaikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = albaik;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F12A18142760ABDD00C02D3A /* Build configuration list for PBXProject "albaik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12A18442760ABE000C02D3A /* Debug */,
+				F12A18452760ABE000C02D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F12A18462760ABE000C02D3A /* Build configuration list for PBXNativeTarget "albaik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12A18472760ABE000C02D3A /* Debug */,
+				F12A18482760ABE000C02D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F12A18492760ABE000C02D3A /* Build configuration list for PBXNativeTarget "albaikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12A184A2760ABE000C02D3A /* Debug */,
+				F12A184B2760ABE000C02D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F12A184C2760ABE000C02D3A /* Build configuration list for PBXNativeTarget "albaikUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12A184D2760ABE000C02D3A /* Debug */,
+				F12A184E2760ABE000C02D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F12A18252760ABDD00C02D3A /* albaik.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F12A18262760ABDD00C02D3A /* albaik.xcdatamodel */,
+			);
+			currentVersion = F12A18262760ABDD00C02D3A /* albaik.xcdatamodel */;
+			path = albaik.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F12A18112760ABDD00C02D3A /* Project object */;
+}

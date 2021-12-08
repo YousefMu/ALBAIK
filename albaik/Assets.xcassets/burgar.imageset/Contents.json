@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "المنيو-البيك-اسعار-وجبات-البيك.jpeg 21-37-14-868.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
